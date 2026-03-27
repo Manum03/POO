@@ -11,5 +11,10 @@ public class Main {
  e1.nombre = "Alejandro";
  e1.edad = 20;
  e1.mostrar();
+ 
+ Estudiante e2 = new Estudiante();
+ e2.nombre = "Valentina";
+ e2.edad = 24;
+ e2.mostrar();
  }
 }
