@@ -9,7 +9,10 @@ class Persona {
 }
 public class main {
  public static void main(String[] args) {
- Persona p = new Persona("Carlos");
+ Persona p = new Persona("Alejandro");
  p.saludar();
+ Persona q = new Persona("Maria");
+ q.saludar();
  }
+ 
 }

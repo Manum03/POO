@@ -5,5 +5,7 @@ class persona:
     def saludar(self):
         print("Hola soy", self.nombre)
 
-p=persona("Carlos")
+p=persona("Alejandro")
+p.saludar()
+p=persona("Maria")
 p.saludar()
